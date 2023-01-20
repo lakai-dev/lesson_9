@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Black.woff2') format('woff2'),
+    url('../font/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Bold.woff2') format('woff2'),
+    url('../font/Roboto-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.woff2') format('woff2'),
+    url('../font/Roboto-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    background: #F5F5F5;
+}
+
+.wrap {
+    width: 1020px;
+    margin: 200px auto 0;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.section-name {
+    margin-bottom: 33px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #5D62B5;
+}
+
+.section-name::before {
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 24px;
+    margin-right: 16px;
+    background: url("../img/hw_2/mark.svg") 0 0 / 140% no-repeat;
+    vertical-align: middle;
+}
+
+.section-title {
+    margin-bottom: 78px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.items {
+    font-size: 0;
+    margin-bottom: 66px;
+}
+
+.item {
+    display: inline-block;
+    width: 324px;
+    height: 340px;
+    margin-bottom: 24px;
+    padding: 50px 44px 0 43px;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.item:hover {
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+
+.item:not(:nth-child(3n)) {
+    margin-right: 24px;
+}
+
+.item__img {
+    margin-bottom: 33px;
+}
+
+.item__title {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    color: #F2726F;
+}
+
+.item__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+}
+
+.btn-wrap {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #F2726F;
+}
